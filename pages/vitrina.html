@@ -1,0 +1,205 @@
+<!DOCTYPE html> <!--Tipo de documento-->
+<html lang = "es"> <!--Etiqueta inicial de HTML-->
+<head>
+    <link rel="stylesheet" href="../css/bootstrap.css"/>
+    <link rel="stylesheet" href="../css/destino.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Keywords SEO-->
+    <meta name="keywords" content="Estadio, Aficion, Gradas, Campeon">
+    <!--Description SEO-->
+    <meta name="description" content="Pagina Oficial del estadio de FC Coder">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Duru+Sans&display=swap" rel="stylesheet">  
+    <title>FC Coder</title>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>FC Coder</h1>    
+        </div>
+        <div class="menuInicial">
+            <div id = "logo">
+                <a href="../index.html"><img src="../img/coder_fc.png" alt="Logo FC Coder"></a> 
+            </div>
+            <div>
+                <input type="barra"  name="barra" class = "barra">
+                <input type="submit" value="Buscar" class = "botonBusqueda">
+            </div>
+            <div id="loginCarrito">
+                <a href="login.html" class="btn btn-primary btn-lg active btn-sm" role="button" aria-pressed="true">Login</a>
+                <a href="login.html" class="btn btn-secondary btn-lg active btn-sm" role="button" aria-pressed="true">Registro</a>
+                <a href ="" data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="../img/carrito.png" alt="Carrito de compra"></a>
+            </div>
+        </div>
+    </header>   
+    <nav class = "colorNav">
+        <ul> <!--Menu de secciones-->
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="estadio.html">Estadio</a>
+                    <ul>
+                        <li><a href="#">Aficion</a></li>
+                        <li><a href="#">Gradas</a></li>
+                        <li><a href="#">Tienda</a></li>
+                    </ul>
+                </li>
+            <li><a href="equipo.html">Equipo</a>
+                <ul>
+                    <li><a href="#">Vestimenta</a></li>
+                    <li><a href="#">Jugadores</a></li>
+                    <li><a href="#">Autoridades</a></li>
+                </ul>
+            </li>    
+            <li><a href="vitrina.html">Vitrina</a>
+                <ul>
+                    <li><a href="#">Copa Libertadores</a></li>
+                    <li><a href="#">Copa Sudamericana</a></li>
+                    <li><a href="#">Trofeos de liga</a></li>
+                </ul>
+            </li>
+            <li><a href="socios.html">Socios</a>
+                <ul>
+                    <li><a href="#">Informacion para socios</a></li>
+                    <li><a href="#">Hacete socio</a></li>
+                    <li><a href="">Beneficios para socios</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <!--Inicio del Carrousel-->
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../img/estadio.jpg" class="d-block w-100" alt="Foto Estadio">
+              </div>
+              <div class="carousel-item">
+                <img src="../img/estadio2.jpg" class="d-block w-100" alt="Otra foto estadio">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <!--Fin del Carrousel-->
+        <section class = "gridMain">
+            <article>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="../img/libertadores.jpg" class="card-img-top" alt="Copa Libertadores">
+                        <div class="card-body">
+                          <h5 class="card-title">Campeones en 1982 </h5>
+                          <p class="card-text">Repasamos la historia de cuando fuimos campeones de america en el 82</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#" class="btn btn-outline-success">Click para ver mas informacion</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="../img/intercontinental.jpg" class="card-img-top" alt="Copa intercontinental">
+                        <div class="card-body">
+                          <h5 class="card-title">Hoy hizo fecha de cuando le ganamos al Real Madrid en el 66</h5>
+                          <p class="card-text">Hoy se conmemora fecha de nuestra mas grande gesta internacional</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#" class="btn btn-outline-success">Click para ver mas informacion</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="../img/local.jpg" class="card-img-top" alt="Goleada local">
+                        <div class="card-body">
+                          <h5 class="card-title">35 años de los 7 goles del Nando</h5>
+                          <p class="card-text">Hoy hacen 35 años de los 7 goles del Nando Morena a Huracan Buceo</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#" class="btn btn-outline-success">Click para ver mas informacion</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </article>
+            <article class = "leyenda"> <!--Breve descripcion del negocio-->
+                <div>
+                    <p class = "googleFonts">En esta seccion, se podra encontrar todo lo referente a los   <span class="negritaCursiva">Trofeos ganados por FC Coder</span></p>
+                </div>
+            </article>
+            <article class = "fondo" class ="newsLetter">
+                <div>
+                    <h3 class = "googleFonts">
+                        Newsletter
+                    </h3>
+                    <h4 class = "googleFonts"> Ingrese su correo electronico para suscribirse</h4>
+                    <div>
+                        <input type="correo"  name="correo" class = "barra">
+                        <input type="submit" value="Suscribirse" class = "botonBusqueda">
+                    </div>
+                </div>
+                <div>                    
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Carrito de compras</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="/img/camiseta.JPG" class="img-fluid img-thumbnail" alt="camiseta">
+                            </div>
+                            <p>Agregar al carrito</p>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                            <button type="button" class="btn btn-success">Agregar</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>  
+            </article>
+        </section>
+    </main>
+    <footer> <!--Footer con los locales, contacto, redes sociales y el bot automatico-->
+        <div>
+            <a href=""><img src="../img/whatsapp-24.png" alt="Whatsapp"></a>
+            <a href=""><img src="../img/facebook-24.png" alt="Facebook"></a>
+            <a href=""><img src="../img/instagram-24.png" alt="Instagram"></a>
+        </div>
+        <div>
+            <a href="contacto.html" class="btn btn-primary btn-lg active btn-sm" role="button" aria-pressed="true">Contacto</a>
+        </div>
+        <div>
+            <div>
+                <button type="button" class="btn btn-danger btn-sm" id="liveToastBtn">Chat online</button>
+            </div>
+            <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+                <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                    <div class="toast-header">
+                    <img src="../img/coder_fc_32x32.png" class="rounded me-2" alt="...">
+                    <strong class="me-auto">Chat automatico</strong>
+                    <small>11 mins ago</small>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
+                <div class="toast-body">Hola buenas tardes, ingrese su mensaje y sera respondido a la brevedad</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="../js/bootstrap.js"></script>
+</body>    
+</html>
+
